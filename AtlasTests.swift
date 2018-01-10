@@ -14,6 +14,7 @@ class AtlasTests: XCTestCase {
     XCTAssertEqual(Country(code: "US").emojiFlag, "\u{1f1fa}\u{1f1f8}")
   }
 }
+///Adding Additional Functionality to protocal
 
 extension AtlasTests {
   static var allTests : [(String, (AtlasTests) -> () throws -> Void)] {
